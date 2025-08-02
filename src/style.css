@@ -118,25 +118,48 @@ body {
     border: none;
     cursor: pointer;
     padding: 1rem;
-}
-
-p {
-    text-align: justify;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #fff;
 }
 
 .card-services:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-services h5 {
+    font-weight: 700;
+    margin: 1rem 0;
+    text-align: center;
 }
 
 .card-services:hover h5 {
     color: var(--blue);
 }
 
-.card-services h5 {
-    font-weight: 700;
-    margin: 1rem;
+p {
+    text-align: justify;
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
+
+.service-btn {
+    background: linear-gradient(90deg, #4a90e2, #2c63b5);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.service-btn:hover {
+    background: linear-gradient(90deg, #2c63b5, #4a90e2);
+    color: #fff;
+}
+
 
 #digital-marketing-card {
     background-color: #ff689a3d;
@@ -260,7 +283,7 @@ p {
 
 footer {
     background-color: var(--blue);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 footer .heading-text {
@@ -323,7 +346,7 @@ footer form textarea:focus {
 
 input::placeholder,
 textarea::placeholder {
-    color: rgb(180, 180, 180);
+    color: rgb(175, 145, 145);
 }
 
 textarea {
@@ -331,7 +354,7 @@ textarea {
 }
 
 #error {
-    color: red;
+    color: rgb(240, 38, 38);
     font-size: 1rem;
 }
 
@@ -418,24 +441,39 @@ textarea {
     }
 }
 
+/* Copyright Section Styling */
+.copyright {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.copyright p {
+    margin: 0;
+}
+
+/* Back to Top Button */
 #backToTop {
-  display: none;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  z-index: 999;
-  font-size: 1.5rem;
-  background-color: var(--blue);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  padding: 10px 15px;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease-in-out;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    font-size: 1.5rem;
+    background-color: var(--blue);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(183, 169, 169, 0.2);
+    transition: all 0.3s ease-in-out;
 }
 
 #backToTop:hover {
-  background-color: #005fcc; /* darker shade of blue */
-  transform: scale(1.1);
+    background-color: #6fa7e8;
+    transform: scale(1.1);
 }
+

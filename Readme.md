@@ -1,40 +1,36 @@
-# 🌱 GrowCraft
+# 🌱 TechGrow
 
-**GrowCraft** is a service-based platform offering:
+**TechGrow** is a personal learning project focused on applying theoretical knowledge into practical, real-world work.  
 
-- 🌐 Website Development  
-- 🖌️ Graphic Design  
-- ✍️ Content Writing  
-- 📣 Social Media Management  
-- 📊 Digital Marketing  
-- 🎓 Training & Internship Programs
+---
 
-This project is built to help businesses grow online while providing students with real-world learning via training and internships.
+## 📌 Services Covered in the Project
 
-> 🏆 **This repository is part of GirlScript Summer of Code 2025 (GSSoC).**  
-> New contributors are welcome!
+- 🌐 **Website Development**  
+- 📱 **App Development**  
+- 🎨 **UI/UX Design**  
+- 🖌️ **Graphic Design**  
+- ✍️ **Content Writing**  
+- 📣 **Social Media Management**  
+- 📊 **Digital Marketing**  
+- 🔍 **SEO Optimization**  
+- 🔒 **Cyber Security Solutions**  
+- 🎓 **Training & Internship Concepts**  
 
 ---
 
 ## 📸 Project Preview
 
-GrowCraft is a fully responsive static website using HTML, CSS, JavaScript, and Bootstrap.  
-It includes landing pages, service sections, contact form, and a portfolio/work gallery.
+TechGrow is a **fully responsive static website** built using HTML, CSS, JavaScript, and Bootstrap.  
+It includes:
+- **Landing page**
+- **Service sections**
+- **Portfolio / Our Work gallery**
+- **Contact form**
+- **Back-to-top button**
+- **Smooth scrolling navigation**
 
 ---
 
 ## 📂 Folder Structure
-
-
-
-
----
-
-## 💻 Tech Stack
-
-- **Frontend:** HTML5, CSS3, Bootstrap 5.3
-- **Script:** JavaScript (vanilla)
-- **No backend required**
-
----
 
