@@ -82,5 +82,7 @@ TechGrow/
     cd TechGrow
 3. **Open index.html in your browser**
    (Double-click or use Live Server in VS Code)
+4. Live Demo
+    https://techgrow-shivani.netlify.app/
 
    
