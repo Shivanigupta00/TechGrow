@@ -35,18 +35,30 @@ It includes:
 ## 📂 Folder Structure
 TechGrow/
 │
+
 ├── index.html # Homepage
+
 ├── works/ # Portfolio / Our Work pages
+
 │ ├── works.html
+
 │
+
 ├── images/ # All project images & assets
 │
+
 ├── src/ # JavaScript files
+
 │ ├── script.js
+
 │
+
 ├── style.css # Main CSS file
+
 │
+
 ├── README.md # Project documentation
+
 └── LICENSE # License file
 
 
